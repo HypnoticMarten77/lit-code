@@ -22,8 +22,8 @@ const int contrast = 100;// default contrast
 // initial Time display and initial Day display
 int h=11;
 int m=59;
-int s=40;
-float day=0  ; //Sunday
+int s=50;
+int day=60  ; //Sunday
 int flag=1; //PM
 
 // Time Set Buttons
@@ -78,13 +78,14 @@ void loop()
 
  // Print DAY of the week
  lcd.print("Day is ");
+// lcd.print(day);
  if(day==0)lcd.print("Sunday");
- if(day==1)lcd.print("Monday");
- if(day==2)lcd.print("Tuesday");
- if(day==3)lcd.print("Wednesday");
- if(day==4)lcd.print("Thursday");
- if(day==5)lcd.print("Friday");
- if(day==6)lcd.print("Saturday");
+ if(day==10)lcd.print("Monday");
+ if(day==20)lcd.print("Tuesday");
+ if(day==30)lcd.print("Wednesday");
+ if(day==40)lcd.print("Thursday");
+ if(day==50)lcd.print("Friday");
+ if(day==60)lcd.print("Saturday");
  
 
 
@@ -155,8 +156,8 @@ for ( int i=0 ;i<5 ;i++)// make 5 time 200ms loop, for faster Button response
  {
   flag=flag+1;
   if(flag==2)flag=0;
-  day=day+0.2;
-  if(day>6)day=0;
+  day=day+2;
+  if(day==70)day=0;
  }
  if(h==13)
  {
