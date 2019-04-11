@@ -1,2 +1,8 @@
 # lit-code
-Code for the Sons of PBJ semester project
+This is the repository for the code for lit, the Sons of PBJ final semester project.
+
+Team Members:
+-Andres Maldonado-Martin
+-Mason Anderson
+-Nicholas Verdugo
+-Nicolas Merimbeau
