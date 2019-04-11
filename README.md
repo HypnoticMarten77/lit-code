@@ -1,5 +1,5 @@
-# lit-code
-This is the repository for the code for lit, the Sons of PBJ final semester project.
+# lit-project
+This is the repository for lit, the Sons of PBJ final semester project.
 
 Team Members:
 -Andres Maldonado-Martin
